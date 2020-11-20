@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sxau.master.dao.mapper.SysShopCarMapper">
+
+    <update id="saveToBatch">
+        update  sys_shop_car set state = #{state}
+        where id in
+        <foreach collection="cars" item="id" open="(" close=")" separator="," >
+            #{id}
+        </foreach>
+    </update>
+
+    <select id="findAllShopCarByUserIdAndState" resultType="com.sxau.master.vo.ShopCarVO">
+        SELECT
+            s1.id,
+            s1.create_time,
+            s1.update_time,
+            s1.state,
+            s2.pro_name,
+            s2.img_url,
+            s2.pro_price,
+            s2.pro_count
+        FROM
+            sys_shop_car s1,
+            sys_product s2
+        WHERE
+            s1.pro_id = s2.id
+            AND s1.user_id_buy = #{userId}
+            AND s1.state = #{state}
+    </select>
+    <update id="changeAllShopCarStateByProId">
+        update sys_shop_car set state = #{state}
+        where pro_id in
+        <foreach collection="list" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </update>
+    <update id="changeAllShopCarState">
+        update sys_shop_car set state = #{state}
+        where id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item.id}
+        </foreach>
+    </update>
+    <select id="findAllShopCarByIdsAndState" resultType="com.sxau.master.data.SysShopCar">
+        select  * from  sys_shop_car where state = #{state}
+        and id in
+        <foreach collection="list" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+
+</mapper>

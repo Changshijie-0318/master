@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sxau.master.dao.mapper.SysWantProductMapper">
+    <select id="findAllByState" resultType="com.sxau.master.vo.SysWantProductVO">
+        SELECT
+        s1.*,
+        s2.real_name as user_name,
+        s2.phone
+        FROM
+        sys_want_product s1,
+        sys_user s2
+        WHERE
+        s1.user_id = s2.id
+        and s1.state = #{state}
+        <if test="userId!=null and userId != 0">
+            and s1.user_id =#{userId}
+        </if>
+    </select>
+</mapper>

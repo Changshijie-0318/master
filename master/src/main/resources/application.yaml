@@ -1,0 +1,51 @@
+server:
+  port: 8003
+  servlet:
+    context-path: /master
+#配置数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/master?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: root
+  #控制台打印jpa sql
+  jpa:
+    show-sql: true
+  #redis配置
+#  redis:
+#    database: 0
+#    host: localhost
+#    port: 6379
+#    jedis:
+#      pool:
+#        max-active: 1024
+#        # 连接池中的最大空闲连接
+#        max-idle: 200
+#        # 连接池中的最小空闲连接
+#        min-idle: 0
+  resources:
+    static-locations: file:F:/photos/
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+mybatis:
+  mapperLocations: classpath*:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    mapUnderscoreToCamelCase: true  #驼峰命名法自动转换  比如 user_name 转为 userName
+
+
+
+imagesPath: H:/photos/
+#imagesPath: /home/gjj/master/upload/
+
+
+MyQQEmail:
+  email: 1580630512@qq.com #发件人信息
+  recipient: 1580630512@qq.com #发件人邮箱
+  authCode: qcpkcxbuawzkhchg #邮箱授权码
+  host: smtp.qq.com #邮件发送的服务器
+token:
+  secret: kdnfjgnvhfngjvndheiolmkhibnfhczs

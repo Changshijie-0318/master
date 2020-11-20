@@ -1,0 +1,981 @@
+2020-03-09 11:12:37.247 [main] INFO  com.zbxs.master.MasterApplication - Starting MasterApplication on DESKTOP-S5UDDT4 with PID 10952 (started by Administrator in D:\管建晶毕设\master\master)
+2020-03-09 11:12:37.251 [main] INFO  com.zbxs.master.MasterApplication - No active profile set, falling back to default profiles: default
+2020-03-09 11:12:37.297 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30c15d8b: startup date [Mon Mar 09 11:12:37 CST 2020]; root of context hierarchy
+2020-03-09 11:12:38.378 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-09 11:12:38.516 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-09 11:12:38.538 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysFileRepository.
+2020-03-09 11:12:38.539 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysNoticeRepository.
+2020-03-09 11:12:38.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysOrderRepository.
+2020-03-09 11:12:38.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysProductRepository.
+2020-03-09 11:12:38.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysShopCarRepository.
+2020-03-09 11:12:38.541 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysSortRepository.
+2020-03-09 11:12:38.541 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysUserNoticeRepository.
+2020-03-09 11:12:38.541 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysUserOrderRepository.
+2020-03-09 11:12:38.541 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysUserRepository.
+2020-03-09 11:12:38.542 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysUserTokenRepository.
+2020-03-09 11:12:38.542 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zbxs.master.dao.repostiory.SysWantProductRepository.
+2020-03-09 11:12:39.015 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$242e8876] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-09 11:12:39.726 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2020-03-09 11:12:39.888 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2591 ms
+2020-03-09 11:12:40.099 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-03-09 11:12:40.104 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-09 11:12:40.104 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-09 11:12:40.104 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-09 11:12:40.104 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-09 11:12:40.299 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-09 11:12:40.862 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-09 11:12:41.033 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-09 11:12:42.228 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-09 11:12:43.639 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-09 11:12:43.704 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/root/getAllList],methods=[POST]}" onto public com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>> com.zbxs.master.controller.RootManagerController.getAllList()
+2020-03-09 11:12:43.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/root/getAllOrderInfo],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer> com.zbxs.master.controller.RootManagerController.getAllOrderInfo(com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>)
+2020-03-09 11:12:43.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/root/getAllUserInfo],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer> com.zbxs.master.controller.RootManagerController.getAllUserInfo(com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>)
+2020-03-09 11:12:43.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/root/addUser],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.RootManagerController.addUser(com.zbxs.master.vo.req.AddUserReq)
+2020-03-09 11:12:43.708 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/e-mail/sendEmail],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.Integer> com.zbxs.master.controller.SendEmailController.sendEmail(java.lang.String)
+2020-03-09 11:12:43.710 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/file/upload-image],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.Integer> com.zbxs.master.controller.SysFileController.uploadImage(org.springframework.web.multipart.MultipartFile)
+2020-03-09 11:12:43.710 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/file/download-image],methods=[GET],produces=[image/jpeg]}" onto public byte[] com.zbxs.master.controller.SysFileController.getImage(java.lang.Integer)
+2020-03-09 11:12:43.711 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/file/deleteImage],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysFileController.deleteImage(com.zbxs.master.vo.req.DeleteImageReq)
+2020-03-09 11:12:43.712 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notice/addNotice],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysNoticeController.addNotice(com.zbxs.master.vo.req.AddNoticeReq)
+2020-03-09 11:12:43.712 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notice/getUnDealCount],methods=[GET]}" onto public com.zbxs.master.common.Result<java.lang.Integer> com.zbxs.master.controller.SysNoticeController.getUnDealCount()
+2020-03-09 11:12:43.712 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notice/getAllNotice],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer> com.zbxs.master.controller.SysNoticeController.getAllNotice(com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>)
+2020-03-09 11:12:43.713 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/editOrders],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysOrderController.editOrders(com.zbxs.master.vo.req.updateOrderReq)
+2020-03-09 11:12:43.713 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/addOrder],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysOrderController.addOrder(com.zbxs.master.vo.req.AddOrderReq)
+2020-03-09 11:12:43.714 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/findAllOrderByUser],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer> com.zbxs.master.controller.SysOrderController.findAllOrderByUser(com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>)
+2020-03-09 11:12:43.717 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/getAllSort],methods=[POST]}" onto public com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>> com.zbxs.master.controller.SysProductController.getAllSort()
+2020-03-09 11:12:43.717 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/cancelProduct],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysProductController.cancelProduct(com.zbxs.master.vo.req.CancelProReq)
+2020-03-09 11:12:43.718 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/getAllProduct],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer> com.zbxs.master.controller.SysProductController.getAllProduct(com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>)
+2020-03-09 11:12:43.718 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/addProduct],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysProductController.addProduct(com.zbxs.master.vo.req.AddProductReq)
+2020-03-09 11:12:43.718 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/getProInfo],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct> com.zbxs.master.controller.SysProductController.getProInfo(com.zbxs.master.vo.req.GetProInfoReq)
+2020-03-09 11:12:43.718 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/updateProduct],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysProductController.updateProduct(com.zbxs.master.vo.req.UpdateProReq)
+2020-03-09 11:12:43.719 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/getAllProductByUser],methods=[POST]}" onto public com.zbxs.master.common.Result<java.util.List> com.zbxs.master.controller.SysProductController.getAllProductByUser()
+2020-03-09 11:12:43.719 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/getAllProductForUser],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer> com.zbxs.master.controller.SysProductController.getAllProductForUser(com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>)
+2020-03-09 11:12:43.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shop/addShopCar],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysShopCarController.addShopCar(com.zbxs.master.vo.req.AddShopCarReq)
+2020-03-09 11:12:43.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shop/cancelCar],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysShopCarController.cancelCar(com.zbxs.master.vo.req.CancelShopCarReq)
+2020-03-09 11:12:43.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shop/getAllShopCarByUser],methods=[POST]}" onto public com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>> com.zbxs.master.controller.SysShopCarController.findAllShopCarByUser(com.zbxs.master.vo.req.FindAllShopCarReq)
+2020-03-09 11:12:43.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shop/findAllShopCarByUser],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer> com.zbxs.master.controller.SysShopCarController.findAllShopCarByUser(com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>)
+2020-03-09 11:12:43.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userInfo/register],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysUserInfoController.register(com.zbxs.master.vo.req.RegisterSysUserReq)
+2020-03-09 11:12:43.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userInfo/showUser],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.data.SysUser> com.zbxs.master.controller.SysUserInfoController.showUser()
+2020-03-09 11:12:43.723 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userInfo/login],methods=[POST]}" onto public com.zbxs.master.common.Result<com.zbxs.master.data.SysUser> com.zbxs.master.controller.SysUserInfoController.login(com.zbxs.master.vo.req.UserLoginReq,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-09 11:12:43.723 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userInfo/updateInfo],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysUserInfoController.updateInfo(com.zbxs.master.vo.req.UpdateUserReq,javax.servlet.http.HttpServletRequest)
+2020-03-09 11:12:43.724 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/want/addWantProduct],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysWantProductController.addWantProduct(com.zbxs.master.vo.req.AddWantProReq)
+2020-03-09 11:12:43.724 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/want/cancelWantProduct],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysWantProductController.cancelWantProduct(com.zbxs.master.vo.req.CancelWantProReq)
+2020-03-09 11:12:43.724 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/want/updateWantProduct],methods=[POST]}" onto public com.zbxs.master.common.Result<java.lang.String> com.zbxs.master.controller.SysWantProductController.updateWantProduct(com.zbxs.master.vo.req.UpdateWantProReq)
+2020-03-09 11:12:43.725 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2020-03-09 11:12:43.727 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-09 11:12:43.728 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-09 11:12:43.728 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-09 11:12:43.730 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-09 11:12:43.730 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-09 11:12:44.086 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-09 11:12:44.291 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30c15d8b: startup date [Mon Mar 09 11:12:37 CST 2020]; root of context hierarchy
+2020-03-09 11:12:44.340 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-09 11:12:44.340 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-09 11:12:44.357 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+2020-03-09 11:12:44.890 [main] INFO  o.s.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30c15d8b: startup date [Mon Mar 09 11:12:37 CST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+2020-03-09 11:12:44.890 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-03-09 11:12:44.913 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-03-09 11:12:45.067 [main] INFO  o.s.w.s.server.standard.ServerEndpointExporter - Registering @ServerEndpoint class: class com.zbxs.master.socket.WebSocket
+2020-03-09 11:12:45.076 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-09 11:12:45.078 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-03-09 11:12:45.085 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-03-09 11:12:45.096 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-09 11:12:45.110 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-03-09 11:12:45.121 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-09 11:12:45.124 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method sendEmail was 邮件接口
+2020-03-09 11:12:45.126 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: sendEmail belongs to groups: [[ResourceGroup{groupName='邮件接口', position=0, controller=com.zbxs.master.controller.SendEmailController}]] 
+2020-03-09 11:12:45.126 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method deleteImage was 文件接口
+2020-03-09 11:12:45.127 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: deleteImage belongs to groups: [[ResourceGroup{groupName='文件接口', position=0, controller=com.zbxs.master.controller.SysFileController}]] 
+2020-03-09 11:12:45.127 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getImage was 文件接口
+2020-03-09 11:12:45.127 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getImage belongs to groups: [[ResourceGroup{groupName='文件接口', position=0, controller=com.zbxs.master.controller.SysFileController}]] 
+2020-03-09 11:12:45.127 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method uploadImage was 文件接口
+2020-03-09 11:12:45.127 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: uploadImage belongs to groups: [[ResourceGroup{groupName='文件接口', position=0, controller=com.zbxs.master.controller.SysFileController}]] 
+2020-03-09 11:12:45.128 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addNotice was 消息接口
+2020-03-09 11:12:45.128 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: addNotice belongs to groups: [[ResourceGroup{groupName='消息接口', position=0, controller=com.zbxs.master.controller.SysNoticeController}]] 
+2020-03-09 11:12:45.128 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllNotice was 消息接口
+2020-03-09 11:12:45.128 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllNotice belongs to groups: [[ResourceGroup{groupName='消息接口', position=0, controller=com.zbxs.master.controller.SysNoticeController}]] 
+2020-03-09 11:12:45.128 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getUnDealCount was 消息接口
+2020-03-09 11:12:45.128 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getUnDealCount belongs to groups: [[ResourceGroup{groupName='消息接口', position=0, controller=com.zbxs.master.controller.SysNoticeController}]] 
+2020-03-09 11:12:45.129 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addOrder was 订单接口
+2020-03-09 11:12:45.129 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: addOrder belongs to groups: [[ResourceGroup{groupName='订单接口', position=0, controller=com.zbxs.master.controller.SysOrderController}]] 
+2020-03-09 11:12:45.129 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method editOrders was 订单接口
+2020-03-09 11:12:45.129 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: editOrders belongs to groups: [[ResourceGroup{groupName='订单接口', position=0, controller=com.zbxs.master.controller.SysOrderController}]] 
+2020-03-09 11:12:45.129 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllOrderByUser was 订单接口
+2020-03-09 11:12:45.129 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: findAllOrderByUser belongs to groups: [[ResourceGroup{groupName='订单接口', position=0, controller=com.zbxs.master.controller.SysOrderController}]] 
+2020-03-09 11:12:45.130 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addProduct was 商品接口
+2020-03-09 11:12:45.130 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: addProduct belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.130 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelProduct was 商品接口
+2020-03-09 11:12:45.130 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: cancelProduct belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.130 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProductByUser was 商品接口
+2020-03-09 11:12:45.130 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllProductByUser belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.131 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProductForUser was 商品接口
+2020-03-09 11:12:45.131 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllProductForUser belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.131 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProduct was 商品接口
+2020-03-09 11:12:45.131 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllProduct belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.131 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllSort was 商品接口
+2020-03-09 11:12:45.131 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllSort belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.131 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getProInfo was 商品接口
+2020-03-09 11:12:45.131 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getProInfo belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.131 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateProduct was 商品接口
+2020-03-09 11:12:45.131 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: updateProduct belongs to groups: [[ResourceGroup{groupName='商品接口', position=0, controller=com.zbxs.master.controller.SysProductController}]] 
+2020-03-09 11:12:45.131 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addUser was 管理员接口
+2020-03-09 11:12:45.131 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: addUser belongs to groups: [[ResourceGroup{groupName='管理员接口', position=0, controller=com.zbxs.master.controller.RootManagerController}]] 
+2020-03-09 11:12:45.132 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllList was 管理员接口
+2020-03-09 11:12:45.132 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllList belongs to groups: [[ResourceGroup{groupName='管理员接口', position=0, controller=com.zbxs.master.controller.RootManagerController}]] 
+2020-03-09 11:12:45.132 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllOrderInfo was 管理员接口
+2020-03-09 11:12:45.132 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllOrderInfo belongs to groups: [[ResourceGroup{groupName='管理员接口', position=0, controller=com.zbxs.master.controller.RootManagerController}]] 
+2020-03-09 11:12:45.132 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllUserInfo was 管理员接口
+2020-03-09 11:12:45.132 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAllUserInfo belongs to groups: [[ResourceGroup{groupName='管理员接口', position=0, controller=com.zbxs.master.controller.RootManagerController}]] 
+2020-03-09 11:12:45.132 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addShopCar was 购物车接口
+2020-03-09 11:12:45.132 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: addShopCar belongs to groups: [[ResourceGroup{groupName='购物车接口', position=0, controller=com.zbxs.master.controller.SysShopCarController}]] 
+2020-03-09 11:12:45.132 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelCar was 购物车接口
+2020-03-09 11:12:45.132 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: cancelCar belongs to groups: [[ResourceGroup{groupName='购物车接口', position=0, controller=com.zbxs.master.controller.SysShopCarController}]] 
+2020-03-09 11:12:45.133 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllShopCarByUser was 购物车接口
+2020-03-09 11:12:45.133 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: findAllShopCarByUser belongs to groups: [[ResourceGroup{groupName='购物车接口', position=0, controller=com.zbxs.master.controller.SysShopCarController}]] 
+2020-03-09 11:12:45.133 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllShopCarByUser was 购物车接口
+2020-03-09 11:12:45.133 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: findAllShopCarByUser belongs to groups: [[ResourceGroup{groupName='购物车接口', position=0, controller=com.zbxs.master.controller.SysShopCarController}]] 
+2020-03-09 11:12:45.133 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户接口
+2020-03-09 11:12:45.133 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='用户接口', position=0, controller=com.zbxs.master.controller.SysUserInfoController}]] 
+2020-03-09 11:12:45.133 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method register was 用户接口
+2020-03-09 11:12:45.133 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: register belongs to groups: [[ResourceGroup{groupName='用户接口', position=0, controller=com.zbxs.master.controller.SysUserInfoController}]] 
+2020-03-09 11:12:45.133 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method showUser was 用户接口
+2020-03-09 11:12:45.133 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: showUser belongs to groups: [[ResourceGroup{groupName='用户接口', position=0, controller=com.zbxs.master.controller.SysUserInfoController}]] 
+2020-03-09 11:12:45.133 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateInfo was 用户接口
+2020-03-09 11:12:45.133 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: updateInfo belongs to groups: [[ResourceGroup{groupName='用户接口', position=0, controller=com.zbxs.master.controller.SysUserInfoController}]] 
+2020-03-09 11:12:45.134 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addWantProduct was 求购接口
+2020-03-09 11:12:45.134 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: addWantProduct belongs to groups: [[ResourceGroup{groupName='求购接口', position=0, controller=com.zbxs.master.controller.SysWantProductController}]] 
+2020-03-09 11:12:45.134 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelWantProduct was 求购接口
+2020-03-09 11:12:45.134 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: cancelWantProduct belongs to groups: [[ResourceGroup{groupName='求购接口', position=0, controller=com.zbxs.master.controller.SysWantProductController}]] 
+2020-03-09 11:12:45.134 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateWantProduct was 求购接口
+2020-03-09 11:12:45.134 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: updateWantProduct belongs to groups: [[ResourceGroup{groupName='求购接口', position=0, controller=com.zbxs.master.controller.SysWantProductController}]] 
+2020-03-09 11:12:45.138 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/订单接口 Description: 订单接口 Position: 0
+2020-03-09 11:12:45.138 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/文件接口 Description: 文件接口 Position: 0
+2020-03-09 11:12:45.138 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/用户接口 Description: 用户接口 Position: 0
+2020-03-09 11:12:45.138 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/消息接口 Description: 消息接口 Position: 0
+2020-03-09 11:12:45.139 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/管理员接口 Description: 管理员接口 Position: 0
+2020-03-09 11:12:45.139 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/商品接口 Description: 商品接口 Position: 0
+2020-03-09 11:12:45.139 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/购物车接口 Description: 购物车接口 Position: 0
+2020-03-09 11:12:45.139 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/求购接口 Description: 求购接口 Position: 0
+2020-03-09 11:12:45.139 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/邮件接口 Description: 邮件接口 Position: 0
+2020-03-09 11:12:45.157 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.157 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.162 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.162 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.190 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.190 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.192 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.192 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.194 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.195 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.195 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.195 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.198 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.198 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.198 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.198 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddProductReq(false)
+2020-03-09 11:12:45.199 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/addProduct.com.zbxs.master.controller.SysProductController.addProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.199 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/addProduct.com.zbxs.master.controller.SysProductController.addProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.210 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addProduct was 商品接口
+2020-03-09 11:12:45.221 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addProduct was 商品接口
+2020-03-09 11:12:45.229 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.229 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.229 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.229 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.229 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.229 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.229 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.229 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.232 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.232 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.232 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.232 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.CancelProReq(false)
+2020-03-09 11:12:45.232 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/cancelProduct.com.zbxs.master.controller.SysProductController.cancelProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.232 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/cancelProduct.com.zbxs.master.controller.SysProductController.cancelProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.235 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelProduct was 商品接口
+2020-03-09 11:12:45.236 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelProduct was 商品接口
+2020-03-09 11:12:45.238 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.238 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.239 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.239 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.241 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.241 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.241 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.241 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.245 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.246 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.246 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.246 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.247 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.247 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.247 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.247 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.247 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.247 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.249 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.249 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.249 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.249 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.252 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.253 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.256 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.256 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.257 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.257 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.258 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.258 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.258 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.258 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.258 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.258 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.259 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.259 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.259 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.259 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.259 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/getAllProduct.com.zbxs.master.controller.SysProductController.getAllProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.259 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/getAllProduct.com.zbxs.master.controller.SysProductController.getAllProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.261 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProduct was 商品接口
+2020-03-09 11:12:45.262 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProduct was 商品接口
+2020-03-09 11:12:45.262 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.262 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.263 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.263 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.264 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.264 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.264 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.util.List(true)
+2020-03-09 11:12:45.264 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.util.List(true)
+2020-03-09 11:12:45.264 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.264 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List>(true)
+2020-03-09 11:12:45.264 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/getAllProductByUser.com.zbxs.master.controller.SysProductController.getAllProductByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.264 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/getAllProductByUser.com.zbxs.master.controller.SysProductController.getAllProductByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.265 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProductByUser was 商品接口
+2020-03-09 11:12:45.266 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProductByUser was 商品接口
+2020-03-09 11:12:45.267 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.267 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.268 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.268 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.268 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.268 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.268 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.269 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.269 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.269 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysProduct>(false)
+2020-03-09 11:12:45.269 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.269 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysProduct(false)
+2020-03-09 11:12:45.269 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.269 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.269 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/getAllProductForUser.com.zbxs.master.controller.SysProductController.getAllProductForUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.269 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/getAllProductForUser.com.zbxs.master.controller.SysProductController.getAllProductForUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.271 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProductForUser was 商品接口
+2020-03-09 11:12:45.272 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllProductForUser was 商品接口
+2020-03-09 11:12:45.274 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.274 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.275 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.275 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.276 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.277 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.277 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysSort(true)
+2020-03-09 11:12:45.277 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysSort(true)
+2020-03-09 11:12:45.278 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.util.List<com.zbxs.master.data.SysSort>(true)
+2020-03-09 11:12:45.278 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.util.List<com.zbxs.master.data.SysSort>(true)
+2020-03-09 11:12:45.278 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.278 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.data.SysSort>>(true)
+2020-03-09 11:12:45.278 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysSort(true)
+2020-03-09 11:12:45.278 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysSort(true)
+2020-03-09 11:12:45.279 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysSort(true)
+2020-03-09 11:12:45.279 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysSort(true)
+2020-03-09 11:12:45.279 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/getAllSort.com.zbxs.master.controller.SysProductController.getAllSort.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.279 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/getAllSort.com.zbxs.master.controller.SysProductController.getAllSort.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.280 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllSort was 商品接口
+2020-03-09 11:12:45.281 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllSort was 商品接口
+2020-03-09 11:12:45.282 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.282 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.282 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.282 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.283 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.283 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.283 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysProduct(true)
+2020-03-09 11:12:45.284 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysProduct(true)
+2020-03-09 11:12:45.285 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.285 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.287 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.288 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.288 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.288 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<com.zbxs.master.data.SysProduct>(true)
+2020-03-09 11:12:45.288 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysProduct(true)
+2020-03-09 11:12:45.288 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysProduct(true)
+2020-03-09 11:12:45.288 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.288 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.288 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.288 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.289 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysProduct(true)
+2020-03-09 11:12:45.289 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysProduct(true)
+2020-03-09 11:12:45.289 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.289 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.289 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.289 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.289 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.289 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.290 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.290 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.290 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.290 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.GetProInfoReq(false)
+2020-03-09 11:12:45.290 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/getProInfo.com.zbxs.master.controller.SysProductController.getProInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.291 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/getProInfo.com.zbxs.master.controller.SysProductController.getProInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.295 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getProInfo was 商品接口
+2020-03-09 11:12:45.297 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getProInfo was 商品接口
+2020-03-09 11:12:45.298 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.298 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.298 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.298 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.298 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.298 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.298 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.298 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.299 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.300 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.300 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.300 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UpdateProReq(false)
+2020-03-09 11:12:45.300 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /product/updateProduct.com.zbxs.master.controller.SysProductController.updateProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.300 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /product/updateProduct.com.zbxs.master.controller.SysProductController.updateProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.302 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateProduct was 商品接口
+2020-03-09 11:12:45.302 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateProduct was 商品接口
+2020-03-09 11:12:45.308 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.308 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.309 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.309 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.309 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.309 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.309 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.309 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.310 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.310 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.310 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.310 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.DeleteImageReq(false)
+2020-03-09 11:12:45.311 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /file/deleteImage.com.zbxs.master.controller.SysFileController.deleteImage.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.311 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /file/deleteImage.com.zbxs.master.controller.SysFileController.deleteImage.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.312 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method deleteImage was 文件接口
+2020-03-09 11:12:45.314 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method deleteImage was 文件接口
+2020-03-09 11:12:45.315 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: byte[](true)
+2020-03-09 11:12:45.315 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key byte[](true)
+2020-03-09 11:12:45.315 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: byte[](true)
+2020-03-09 11:12:45.315 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key byte[](true)
+2020-03-09 11:12:45.315 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: byte[](true)
+2020-03-09 11:12:45.315 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key byte[](true)
+2020-03-09 11:12:45.317 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /file/download-image.com.zbxs.master.controller.SysFileController.getImage.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.317 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /file/download-image.com.zbxs.master.controller.SysFileController.getImage.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.319 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getImage was 文件接口
+2020-03-09 11:12:45.320 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getImage was 文件接口
+2020-03-09 11:12:45.322 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.322 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.322 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.322 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.323 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.323 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.323 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.323 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.323 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /file/upload-image.com.zbxs.master.controller.SysFileController.uploadImage.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.323 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /file/upload-image.com.zbxs.master.controller.SysFileController.uploadImage.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.325 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method uploadImage was 文件接口
+2020-03-09 11:12:45.325 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method uploadImage was 文件接口
+2020-03-09 11:12:45.326 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.326 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.327 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.327 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.328 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.328 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.328 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.328 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddWantProReq(false)
+2020-03-09 11:12:45.329 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.329 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.329 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.329 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.329 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /want/addWantProduct.com.zbxs.master.controller.SysWantProductController.addWantProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.329 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /want/addWantProduct.com.zbxs.master.controller.SysWantProductController.addWantProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.330 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addWantProduct was 求购接口
+2020-03-09 11:12:45.331 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addWantProduct was 求购接口
+2020-03-09 11:12:45.332 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.332 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.332 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.332 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.332 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.332 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.332 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.332 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.333 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.333 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.333 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.333 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.CancelWantProReq(false)
+2020-03-09 11:12:45.333 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /want/cancelWantProduct.com.zbxs.master.controller.SysWantProductController.cancelWantProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.333 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /want/cancelWantProduct.com.zbxs.master.controller.SysWantProductController.cancelWantProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.335 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelWantProduct was 求购接口
+2020-03-09 11:12:45.336 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelWantProduct was 求购接口
+2020-03-09 11:12:45.337 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.337 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.337 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.337 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.337 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.337 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.337 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.337 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.339 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.339 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.339 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.339 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UpdateWantProReq(false)
+2020-03-09 11:12:45.339 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /want/updateWantProduct.com.zbxs.master.controller.SysWantProductController.updateWantProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.339 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /want/updateWantProduct.com.zbxs.master.controller.SysWantProductController.updateWantProduct.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.340 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateWantProduct was 求购接口
+2020-03-09 11:12:45.341 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateWantProduct was 求购接口
+2020-03-09 11:12:45.342 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.342 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.342 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.342 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.342 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.342 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.342 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.342 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.346 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.346 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.346 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.347 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddNoticeReq(false)
+2020-03-09 11:12:45.347 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /notice/addNotice.com.zbxs.master.controller.SysNoticeController.addNotice.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.347 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /notice/addNotice.com.zbxs.master.controller.SysNoticeController.addNotice.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.348 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addNotice was 消息接口
+2020-03-09 11:12:45.349 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addNotice was 消息接口
+2020-03-09 11:12:45.350 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.350 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.350 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.350 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.351 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.351 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.351 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.GetNoticeReq(false)
+2020-03-09 11:12:45.351 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.GetNoticeReq(false)
+2020-03-09 11:12:45.352 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.352 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.req.GetNoticeReq>(false)
+2020-03-09 11:12:45.353 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.GetNoticeReq(false)
+2020-03-09 11:12:45.353 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.GetNoticeReq(false)
+2020-03-09 11:12:45.353 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.GetNoticeReq(false)
+2020-03-09 11:12:45.353 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.GetNoticeReq(false)
+2020-03-09 11:12:45.353 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.353 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.353 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.353 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.353 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.353 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.354 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /notice/getAllNotice.com.zbxs.master.controller.SysNoticeController.getAllNotice.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.354 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /notice/getAllNotice.com.zbxs.master.controller.SysNoticeController.getAllNotice.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.355 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllNotice was 消息接口
+2020-03-09 11:12:45.356 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllNotice was 消息接口
+2020-03-09 11:12:45.358 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.358 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.358 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.358 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.358 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /notice/getUnDealCount.com.zbxs.master.controller.SysNoticeController.getUnDealCount.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.358 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /notice/getUnDealCount.com.zbxs.master.controller.SysNoticeController.getUnDealCount.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.359 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getUnDealCount was 消息接口
+2020-03-09 11:12:45.359 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getUnDealCount was 消息接口
+2020-03-09 11:12:45.361 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.361 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.361 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.361 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.363 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.363 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.363 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.363 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.365 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.365 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.365 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.365 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.365 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.365 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.366 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.366 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.366 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.366 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.366 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.366 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.366 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.367 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.367 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.367 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.367 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UserLoginReq(false)
+2020-03-09 11:12:45.368 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userInfo/login.com.zbxs.master.controller.SysUserInfoController.login.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.371 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userInfo/login.com.zbxs.master.controller.SysUserInfoController.login.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.372 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户接口
+2020-03-09 11:12:45.373 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户接口
+2020-03-09 11:12:45.373 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.374 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.374 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.374 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.374 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.374 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.374 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.374 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.375 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.375 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.375 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.375 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.RegisterSysUserReq(false)
+2020-03-09 11:12:45.375 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userInfo/register.com.zbxs.master.controller.SysUserInfoController.register.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.375 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userInfo/register.com.zbxs.master.controller.SysUserInfoController.register.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.377 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method register was 用户接口
+2020-03-09 11:12:45.377 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method register was 用户接口
+2020-03-09 11:12:45.378 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.378 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.378 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.379 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.data.SysUser>(true)
+2020-03-09 11:12:45.379 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.379 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysUser(true)
+2020-03-09 11:12:45.379 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.379 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.379 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userInfo/showUser.com.zbxs.master.controller.SysUserInfoController.showUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.379 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userInfo/showUser.com.zbxs.master.controller.SysUserInfoController.showUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.380 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method showUser was 用户接口
+2020-03-09 11:12:45.380 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method showUser was 用户接口
+2020-03-09 11:12:45.381 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.381 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.381 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.381 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.381 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.382 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.382 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.382 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.383 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.383 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.383 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.383 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.UpdateUserReq(false)
+2020-03-09 11:12:45.384 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.384 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.384 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.384 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.384 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.384 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.384 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userInfo/updateInfo.com.zbxs.master.controller.SysUserInfoController.updateInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.384 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userInfo/updateInfo.com.zbxs.master.controller.SysUserInfoController.updateInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.385 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateInfo was 用户接口
+2020-03-09 11:12:45.386 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method updateInfo was 用户接口
+2020-03-09 11:12:45.387 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.387 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.387 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.387 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.388 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.388 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.388 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.388 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddUserReq(false)
+2020-03-09 11:12:45.389 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.389 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.389 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /root/addUser.com.zbxs.master.controller.RootManagerController.addUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.389 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /root/addUser.com.zbxs.master.controller.RootManagerController.addUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.391 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addUser was 管理员接口
+2020-03-09 11:12:45.391 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addUser was 管理员接口
+2020-03-09 11:12:45.392 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.392 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.392 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.392 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.393 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.393 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.394 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ListShowVo(true)
+2020-03-09 11:12:45.394 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ListShowVo(true)
+2020-03-09 11:12:45.395 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.util.List<com.zbxs.master.vo.ListShowVo>(true)
+2020-03-09 11:12:45.395 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.util.List<com.zbxs.master.vo.ListShowVo>(true)
+2020-03-09 11:12:45.395 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.395 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ListShowVo>>(true)
+2020-03-09 11:12:45.395 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ListShowVo(true)
+2020-03-09 11:12:45.395 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ListShowVo(true)
+2020-03-09 11:12:45.395 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ListShowVo(true)
+2020-03-09 11:12:45.396 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ListShowVo(true)
+2020-03-09 11:12:45.396 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /root/getAllList.com.zbxs.master.controller.RootManagerController.getAllList.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.396 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /root/getAllList.com.zbxs.master.controller.RootManagerController.getAllList.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.396 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllList was 管理员接口
+2020-03-09 11:12:45.398 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllList was 管理员接口
+2020-03-09 11:12:45.399 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.399 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.399 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.399 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.400 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.400 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.401 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.401 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.403 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.403 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.403 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.403 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.403 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.403 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.403 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.403 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.404 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.404 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.404 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.404 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.404 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.404 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.404 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.404 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.404 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.404 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.405 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /root/getAllOrderInfo.com.zbxs.master.controller.RootManagerController.getAllOrderInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.405 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /root/getAllOrderInfo.com.zbxs.master.controller.RootManagerController.getAllOrderInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.406 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllOrderInfo was 管理员接口
+2020-03-09 11:12:45.407 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllOrderInfo was 管理员接口
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.408 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.408 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.408 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.409 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.409 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.409 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysUser(false)
+2020-03-09 11:12:45.409 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysUser(false)
+2020-03-09 11:12:45.412 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.412 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.412 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.data.SysUser>(false)
+2020-03-09 11:12:45.412 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysUser(false)
+2020-03-09 11:12:45.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysUser(false)
+2020-03-09 11:12:45.412 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.412 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.413 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.data.SysUser(false)
+2020-03-09 11:12:45.413 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.data.SysUser(false)
+2020-03-09 11:12:45.413 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.413 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.413 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /root/getAllUserInfo.com.zbxs.master.controller.RootManagerController.getAllUserInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.413 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /root/getAllUserInfo.com.zbxs.master.controller.RootManagerController.getAllUserInfo.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.414 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllUserInfo was 管理员接口
+2020-03-09 11:12:45.415 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getAllUserInfo was 管理员接口
+2020-03-09 11:12:45.417 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.417 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.417 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.417 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.417 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.417 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.418 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.418 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.418 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.418 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.418 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.418 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddOrderReq(false)
+2020-03-09 11:12:45.419 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/addOrder.com.zbxs.master.controller.SysOrderController.addOrder.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.419 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/addOrder.com.zbxs.master.controller.SysOrderController.addOrder.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.420 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addOrder was 订单接口
+2020-03-09 11:12:45.420 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addOrder was 订单接口
+2020-03-09 11:12:45.421 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.421 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.421 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.421 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.421 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.421 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.421 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.421 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.423 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.423 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.423 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.423 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.updateOrderReq(false)
+2020-03-09 11:12:45.423 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/editOrders.com.zbxs.master.controller.SysOrderController.editOrders.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.423 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/editOrders.com.zbxs.master.controller.SysOrderController.editOrders.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.424 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method editOrders was 订单接口
+2020-03-09 11:12:45.424 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method editOrders was 订单接口
+2020-03-09 11:12:45.425 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.425 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.425 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.425 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.SysOrderVO>(false)
+2020-03-09 11:12:45.425 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.425 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.SysOrderVO(false)
+2020-03-09 11:12:45.426 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.426 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /order/findAllOrderByUser.com.zbxs.master.controller.SysOrderController.findAllOrderByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.426 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /order/findAllOrderByUser.com.zbxs.master.controller.SysOrderController.findAllOrderByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.427 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllOrderByUser was 订单接口
+2020-03-09 11:12:45.428 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllOrderByUser was 订单接口
+2020-03-09 11:12:45.429 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.429 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.429 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.429 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.429 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.429 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.429 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.430 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.430 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.430 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.430 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.430 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.AddShopCarReq(false)
+2020-03-09 11:12:45.430 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /shop/addShopCar.com.zbxs.master.controller.SysShopCarController.addShopCar.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.430 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /shop/addShopCar.com.zbxs.master.controller.SysShopCarController.addShopCar.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.431 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addShopCar was 购物车接口
+2020-03-09 11:12:45.432 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method addShopCar was 购物车接口
+2020-03-09 11:12:45.433 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.433 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.434 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.434 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.String>(true)
+2020-03-09 11:12:45.434 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.434 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.434 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.434 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.435 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.435 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.435 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.435 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.CancelShopCarReq(false)
+2020-03-09 11:12:45.435 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /shop/cancelCar.com.zbxs.master.controller.SysShopCarController.cancelCar.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.435 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /shop/cancelCar.com.zbxs.master.controller.SysShopCarController.cancelCar.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.437 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelCar was 购物车接口
+2020-03-09 11:12:45.437 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method cancelCar was 购物车接口
+2020-03-09 11:12:45.439 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.439 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.439 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.439 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<com.zbxs.master.vo.PageResultContainer>(true)
+2020-03-09 11:12:45.439 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.439 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageResultContainer(true)
+2020-03-09 11:12:45.439 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.439 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.440 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.440 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.441 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.441 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.441 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ShopCarVO(false)
+2020-03-09 11:12:45.441 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ShopCarVO(false)
+2020-03-09 11:12:45.442 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.PageRequestContainer<com.zbxs.master.vo.ShopCarVO>(false)
+2020-03-09 11:12:45.442 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ShopCarVO(false)
+2020-03-09 11:12:45.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ShopCarVO(false)
+2020-03-09 11:12:45.442 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.442 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ShopCarVO(false)
+2020-03-09 11:12:45.442 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ShopCarVO(false)
+2020-03-09 11:12:45.443 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(false)
+2020-03-09 11:12:45.443 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(false)
+2020-03-09 11:12:45.443 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /shop/findAllShopCarByUser.com.zbxs.master.controller.SysShopCarController.findAllShopCarByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.443 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /shop/findAllShopCarByUser.com.zbxs.master.controller.SysShopCarController.findAllShopCarByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.444 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllShopCarByUser was 购物车接口
+2020-03-09 11:12:45.445 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllShopCarByUser was 购物车接口
+2020-03-09 11:12:45.446 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.446 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.446 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.446 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.447 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.447 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.447 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.447 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.req.FindAllShopCarReq(false)
+2020-03-09 11:12:45.447 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.447 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.447 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.447 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.448 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.448 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.448 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ShopCarVO(true)
+2020-03-09 11:12:45.448 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ShopCarVO(true)
+2020-03-09 11:12:45.448 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.448 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.448 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.448 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.448 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.util.List<com.zbxs.master.vo.ShopCarVO>(true)
+2020-03-09 11:12:45.448 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.util.List<com.zbxs.master.vo.ShopCarVO>(true)
+2020-03-09 11:12:45.448 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.common.Result<java.util.List<com.zbxs.master.vo.ShopCarVO>>(true)
+2020-03-09 11:12:45.449 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ShopCarVO(true)
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ShopCarVO(true)
+2020-03-09 11:12:45.449 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.449 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.449 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.zbxs.master.vo.ShopCarVO(true)
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.zbxs.master.vo.ShopCarVO(true)
+2020-03-09 11:12:45.449 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.sql.Timestamp(true)
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.sql.Timestamp(true)
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /shop/getAllShopCarByUser.com.zbxs.master.controller.SysShopCarController.findAllShopCarByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.449 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /shop/getAllShopCarByUser.com.zbxs.master.controller.SysShopCarController.findAllShopCarByUser.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.450 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllShopCarByUser was 购物车接口
+2020-03-09 11:12:45.451 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method findAllShopCarByUser was 购物车接口
+2020-03-09 11:12:45.452 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: findAllShopCarByUserUsingPOST_1
+2020-03-09 11:12:45.452 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.453 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.453 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.453 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.zbxs.master.common.Result<java.lang.Integer>(true)
+2020-03-09 11:12:45.453 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /e-mail/sendEmail.com.zbxs.master.controller.SendEmailController.sendEmail.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.453 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /e-mail/sendEmail.com.zbxs.master.controller.SendEmailController.sendEmail.DefaultGenericTypeNamingStrategy
+2020-03-09 11:12:45.454 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method sendEmail was 邮件接口
+2020-03-09 11:12:45.455 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method sendEmail was 邮件接口
+2020-03-09 11:12:45.536 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path '/master'
+2020-03-09 11:12:45.540 [main] INFO  com.zbxs.master.MasterApplication - Started MasterApplication in 8.78 seconds (JVM running for 10.196)
+2020-03-09 11:13:49.781 [http-nio-8003-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-09 11:13:49.812 [http-nio-8003-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2020-03-09 11:13:49.829 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 11:13:50.105 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:13:50.105 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:13:50.109 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:13:50.110 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:13:50.111 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:14:10.988 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/userInfo/login
+2020-03-09 11:14:11.119 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:44.121 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:44.127 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/notice/getUnDealCount
+2020-03-09 11:23:44.128 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:23:44.128 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/notice/getUnDealCount接口
+2020-03-09 11:23:44.559 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 11:23:44.591 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:44.592 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:44.597 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:44.597 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:44.598 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:46.431 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:23:46.467 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllList
+2020-03-09 11:23:46.467 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:23:46.467 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllList接口
+2020-03-09 11:23:46.468 [http-nio-8003-exec-5] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 11:26:48.678 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:26:48.713 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllList
+2020-03-09 11:26:48.713 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:26:48.713 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllList接口
+2020-03-09 11:26:48.713 [http-nio-8003-exec-10] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 11:27:35.801 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:27:35.821 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllList
+2020-03-09 11:27:35.822 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:27:35.822 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllList接口
+2020-03-09 11:27:35.822 [http-nio-8003-exec-2] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 11:31:23.595 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:31:23.637 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/notice/getUnDealCount
+2020-03-09 11:31:23.638 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:31:23.638 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/notice/getUnDealCount接口
+2020-03-09 11:31:24.095 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 11:31:24.121 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:31:24.124 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:31:24.130 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:31:24.130 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:31:24.131 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 11:31:27.868 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllList
+2020-03-09 11:31:27.868 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:31:27.868 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllList接口
+2020-03-09 11:31:27.869 [http-nio-8003-exec-2] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 11:31:30.491 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/notice/getUnDealCount
+2020-03-09 11:31:30.491 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:31:30.491 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/notice/getUnDealCount接口
+2020-03-09 11:31:30.972 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 11:31:31.928 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/userInfo/showUser
+2020-03-09 11:31:31.928 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:31:31.928 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/userInfo/showUser接口
+2020-03-09 11:31:32.000 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProductForUser
+2020-03-09 11:31:32.000 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:31:32.000 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/product/getAllProductForUser接口
+2020-03-09 11:31:32.234 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllSort
+2020-03-09 11:31:32.236 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/notice/getAllNotice
+2020-03-09 11:31:32.236 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 11:31:32.236 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/notice/getAllNotice接口
+2020-03-09 18:49:20.561 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:49:20.636 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:20.639 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:20.640 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:20.642 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:20.647 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:27.238 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/userInfo/login
+2020-03-09 18:49:27.301 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:31.143 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:49:31.145 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllSort
+2020-03-09 18:49:31.171 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:31.175 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:31.177 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:31.180 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:31.180 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:32.636 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:49:33.684 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/userInfo/showUser
+2020-03-09 18:49:33.684 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:33.684 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/userInfo/showUser接口
+2020-03-09 18:49:33.686 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProductForUser
+2020-03-09 18:49:33.686 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:33.686 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/product/getAllProductForUser接口
+2020-03-09 18:49:33.989 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllSort
+2020-03-09 18:49:33.992 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/notice/getAllNotice
+2020-03-09 18:49:33.992 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:33.992 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/notice/getAllNotice接口
+2020-03-09 18:49:46.825 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/order/findAllOrderByUser
+2020-03-09 18:49:46.825 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:46.825 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/order/findAllOrderByUser接口
+2020-03-09 18:49:48.923 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/shop/findAllShopCarByUser
+2020-03-09 18:49:48.923 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:48.923 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/shop/findAllShopCarByUser接口
+2020-03-09 18:49:49.088 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:49.089 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:49.090 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:50.692 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/shop/findAllShopCarByUser
+2020-03-09 18:49:50.692 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:50.692 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/shop/findAllShopCarByUser接口
+2020-03-09 18:49:50.728 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:50.729 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:51.200 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/shop/findAllShopCarByUser
+2020-03-09 18:49:51.200 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:51.200 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/shop/findAllShopCarByUser接口
+2020-03-09 18:49:51.222 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:51.224 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:51.225 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/file/download-image
+2020-03-09 18:49:53.475 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/shop/findAllShopCarByUser
+2020-03-09 18:49:53.475 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:53.475 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/shop/findAllShopCarByUser接口
+2020-03-09 18:49:53.723 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/shop/findAllShopCarByUser
+2020-03-09 18:49:53.723 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:53.723 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/shop/findAllShopCarByUser接口
+2020-03-09 18:49:54.694 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/shop/getAllShopCarByUser
+2020-03-09 18:49:54.694 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:54.694 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/shop/getAllShopCarByUser接口
+2020-03-09 18:49:56.984 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllList
+2020-03-09 18:49:56.984 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:56.984 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllList接口
+2020-03-09 18:49:56.985 [http-nio-8003-exec-9] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 18:49:59.369 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllUserInfo
+2020-03-09 18:49:59.369 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:49:59.370 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllUserInfo接口
+2020-03-09 18:49:59.378 [http-nio-8003-exec-8] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 18:50:09.596 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllUserInfo
+2020-03-09 18:50:09.596 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:50:09.596 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllUserInfo接口
+2020-03-09 18:50:09.598 [http-nio-8003-exec-10] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 18:51:54.183 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/addUser
+2020-03-09 18:51:54.183 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:51:54.183 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/addUser接口
+2020-03-09 18:51:54.279 [http-nio-8003-exec-6] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 18:51:54.431 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllUserInfo
+2020-03-09 18:51:54.431 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:51:54.431 [http-nio-8003-exec-1] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllUserInfo接口
+2020-03-09 18:51:54.432 [http-nio-8003-exec-1] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 18:51:54.648 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/root/getAllUserInfo
+2020-03-09 18:51:54.648 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 用户通过session自动登录SysUser(id=1, realName=平台官网, loginName=root, password=root, email=924161644@qq.com, state=1, phone=15535455834, createTime=2020-01-10 10:49:14.0, updateTime=2020-01-10 10:49:14.0, reason=null, address=5号楼213, imgUrl=103, role=0)
+2020-03-09 18:51:54.648 [http-nio-8003-exec-9] INFO  com.zbxs.master.interceptor.RequestInterceptor - 平台官网正在访问：/master/root/getAllUserInfo接口
+2020-03-09 18:51:54.649 [http-nio-8003-exec-9] INFO  com.zbxs.master.common.permission.PermissionAspect - root用户正在访问root权限
+2020-03-09 18:55:45.203 [http-nio-8003-exec-8] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllSort
+2020-03-09 18:55:45.204 [http-nio-8003-exec-10] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:55:47.762 [http-nio-8003-exec-7] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:55:49.579 [http-nio-8003-exec-2] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:55:51.135 [http-nio-8003-exec-3] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:55:53.106 [http-nio-8003-exec-5] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:55:55.821 [http-nio-8003-exec-4] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct
+2020-03-09 18:55:59.266 [http-nio-8003-exec-6] INFO  com.zbxs.master.interceptor.RequestInterceptor - 拦截请求/master/product/getAllProduct

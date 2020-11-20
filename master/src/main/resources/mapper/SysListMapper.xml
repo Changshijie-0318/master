@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sxau.master.dao.mapper.SysListMapper">
+    <resultMap id="getAllListResultMap" type="com.sxau.master.vo.ListShowVo">
+        <result column="id" property="id" jdbcType="INTEGER"></result>
+        <result column="list_name" property="listName" jdbcType="VARCHAR"></result>
+        <result column="path" property="path" jdbcType="VARCHAR"></result>
+        <collection property="child" column="id" select="getAllList"></collection>
+    </resultMap>
+    <select id="getAllList" resultMap="getAllListResultMap">
+        select * from sys_list where f_id =  #{fId}
+    </select>
+    <select id="findAll" resultType="com.sxau.master.data.SysUser">
+        select * from sys_user
+    </select>
+    <select id="findAllByState" resultType="com.sxau.master.vo.SysOrderVO">
+        SELECT
+			id,
+			( SELECT real_name FROM sys_user WHERE id = user_id_buy ) user_id_buy,
+			( SELECT real_name FROM sys_user WHERE id = user_id_sell ) user_id_sell,
+			( SELECT phone FROM sys_user WHERE id = user_id_sell ) phone,
+			( SELECT pro_name FROM sys_product WHERE id = pro_id ) pro_name,
+			( SELECT img_url FROM sys_product WHERE id = pro_id ) img_url,
+			( SELECT pro_price FROM sys_product WHERE id = pro_id ) pro_price,
+			create_time,
+			address ,
+			rate,
+			state
+		FROM
+			sys_order
+		where state = #{state}
+    </select>
+</mapper>

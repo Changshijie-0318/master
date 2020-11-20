@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sxau.master.dao.mapper.SysOrderMapper">
+    <insert id="saveToBatch">
+        insert into sys_order (user_id_sell, user_id_buy, pro_id, create_time, update_time, address, state) values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.userIdSell},#{item.userIdBuy},#{item.proId},#{item.createTime},#{item.updateTime},#{item.address},#{item.state})
+        </foreach>
+    </insert>
+    <select id="findAllByUserIdBuyAndState" resultType="com.sxau.master.vo.SysOrderVO">
+        SELECT
+			id,
+			( SELECT real_name FROM sys_user WHERE id = user_id_buy ) user_id_buy,
+			( SELECT real_name FROM sys_user WHERE id = user_id_sell ) user_id_sell,
+			( SELECT phone FROM sys_user WHERE id = user_id_sell ) phone,
+			( SELECT pro_name FROM sys_product WHERE id = pro_id ) pro_name,
+			( SELECT img_url FROM sys_product WHERE id = pro_id ) img_url,
+			( SELECT pro_price FROM sys_product WHERE id = pro_id ) pro_price,
+			create_time,
+			address ,
+			rate,
+			state
+		FROM
+			sys_order
+		where
+		   user_id_buy = #{userId}
+		   and state = #{state}
+    </select>
+    <select id="getAllUndealOrder" resultType="java.lang.Integer">
+		SELECT s1.pro_id
+        FROM sys_order s1,sys_product s2
+        where s1.pro_id = s2.id
+        and s2.user_id = #{userId}
+        and s1.state = #{state}
+    </select>
+    <delete id="deleteOrdersState">
+        delete from sys_order where state = #{state} and
+        id in
+        <foreach collection="list" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </delete>
+    <update id="updateOrderState">
+        update sys_order set rate = #{rate} ,state = #{state} where id in
+        <foreach collection="list" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </update>
+</mapper>
